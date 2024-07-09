@@ -3,7 +3,13 @@ import { QuizContext } from "../contexts/quiz";
 
 const Question = () => {
     const [quizState, dispatch] = useContext(QuizContext);
-    return <div>Question</div>;
+    const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
+
+    return (
+        <div className="quiz">
+            <div className="question">{currentQuestion.question}</div>
+        </div>
+    )
 };
 
 export default Question;
