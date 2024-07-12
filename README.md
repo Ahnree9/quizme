@@ -1,3 +1,8 @@
+*** This project is based on the tutorial "How to build a quiz with react hooks - Beginner React Project" from Monsterlessons Academy ***
+https://www.youtube.com/watch?v=lI_ReTTUFU0
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
